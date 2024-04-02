@@ -12,7 +12,7 @@ version = "0.3.1"
 
 [dependencies]
 cortex-m = { git = "https://github.com/rust-embedded/cortex-m", rev = "ec6b3ba49db60b23885921d238d3a9e86cf3e9e9"}
-defmt = { version = "0.3", path = "../../defmt", optional = true }
+defmt = { version = "0.3.4", default-features = false, optional = true }
 rtt-target = { version = "0.4", optional = true }
 
 
