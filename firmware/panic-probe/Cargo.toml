@@ -11,7 +11,7 @@ repository = "https://github.com/knurling-rs/defmt"
 version = "0.3.1"
 
 [dependencies]
-cortex-m = "0.7"
+cortex-m = { git = "https://github.com/rust-embedded/cortex-m", rev = "ec6b3ba49db60b23885921d238d3a9e86cf3e9e9" }
 defmt = { version = "0.3", path = "../../defmt", optional = true }
 rtt-target = { version = "0.4", optional = true }
 
